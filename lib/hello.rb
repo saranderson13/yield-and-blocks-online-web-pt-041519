@@ -4,5 +4,5 @@ def hello_t(names)
   end
 end
 
-hello_t(names) { name.begins_with("T") puts "Hello, #{name}.") : 
+hello_t(names) { puts "Hello, #{name}.") if name.begins_with("T") }
 
