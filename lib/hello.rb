@@ -14,6 +14,5 @@ def hello_t(name_array)
 end
 
 names = ["Tim", "Tom", "Jim"]
-
 hello_t(names) { |name| puts "Hi, #{name}." if name.start_with?("T") }
 
