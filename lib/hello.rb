@@ -4,5 +4,5 @@ def hello_t(names)
   end
 end
 
-hello_t(names) { |name| puts "Hello, #{name}." if name.start_with?("T") }
+hello_t(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}." if name.start_with?("T") }
 
