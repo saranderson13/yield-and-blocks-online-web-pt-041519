@@ -4,5 +4,5 @@ def hello_t(names)
   end
 end
 
-# call your method here!
+hello_t(names) { name.begins_with("T") puts "Hello, #{name}.") : 
 
