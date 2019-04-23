@@ -1,6 +1,14 @@
-def hello_t(names)
-  names.each do |name|
-    yield name
+def hello_t(name_array)
+  if block_given?
+    i = 0
+    
+    while i < array.length
+      yield (name_array[i])
+      i += 1
+    end
+    name_array
+  else
+    puts "Hey! No block was given!"
   end
 end
 
